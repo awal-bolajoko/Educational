@@ -162,6 +162,50 @@ nav a:hover {
   color: #ffcc00;
 }
 
+.quote-section {
+  background-color: #e6f0ff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.quote-box {
+  max-width: 700px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.quote {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.founder-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.founder-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #004080;
+}
+
+.founder-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.founder-title {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
 .footer-bottom {
   text-align: center;
   margin-top: 1rem;
