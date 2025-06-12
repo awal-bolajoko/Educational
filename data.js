@@ -5,7 +5,7 @@ const products = [
     price: 7500,
     category: "Backpacks",
     brand: "BagPro",
-    image: "pexels-alexpelsh-5721338.jpg",
+    image: "Classic School Bags for student.avif",
     description: "Durable school bag with spacious compartments."
   },
   {
@@ -14,7 +14,7 @@ const products = [
     price: 8200,
     category: "Backpacks",
     brand: "TrendBag",
-    image: "karen-zhao-KsLUlI2YCH8-unsplash.jpg",
+    image: "secondarypicks20.jpg",
     description: "Trendy design with padded straps for comfort."
   },
   {
@@ -23,7 +23,7 @@ const products = [
     price: 15000,
     category: "Kids",
     brand: "Bags",
-    image: "c-njwnKDUDKNM-unsplash (1).jpg",
+    image: "Kids Bag with teddybear.jpg",
     description: "Colorful bags for kids that they would want to carry everytime to school."
   },
   {
@@ -32,16 +32,16 @@ const products = [
     price: 8500,
     category: "Kids",
     brand: "Textbooks",
-    image: "annual-report-design-agency-report-yak-Xe6EhvSYAVA-unsplash (3).jpg",
+    image: "Man-Mathematics.jpg",
     description: "Mathematics textbook for kids to help them have solid foundation."
   },
   {
     id: 5,
-    title: "color pencils for kids and babies",
+    title: "pencils for kids and babies",
     price: 9000,
     category: "Kids",
     brand: "Textbooks",
-    image: "acy-ian-malimban-6zGGkI9t7Qg-unsplash (1).jpg",
+    image: "number-2-pencils.webp",
     // description: "color pencils for painting."
   },
   {
@@ -50,7 +50,7 @@ const products = [
     price: 6000,
     category: "Teens",
     brand: "Textbooks",
-    image: "404-Hlbfm6J7VR8-unsplash.jpg",
+    image: "calculator-research-1.jpeg",
     description: "General maths for secondary school students. It helps them understand the concept of secondary school maths."
   },
   {
@@ -59,7 +59,7 @@ const products = [
     price: 8000,
     category: "Teens",
     brand: "Textbooks",
-    image: "lum3n-g6JrDs0e8KI-unsplash.jpg",
+    image: "mathimatical set.jpg",
     // description: "Essential maths for senior secondary school students. It helps in guiding and understand the concept of senior secondary school maths"
   },
 ];
