@@ -50,6 +50,9 @@ h1 {
     text-align: center;
     /* color: #333; */
 }
+p{ 
+  text-align: center;
+}
 
 #cart-container {
     display: flex;
