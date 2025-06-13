@@ -15,32 +15,7 @@ a {
   text-decoration: none;
   color: white;
 }
-/* body {
-    font-family: 'Segoe UI', sans-serif;
-    background: #f5f7fa;
-    width: auto;
-    margin: 0;
-    padding: 20px;
-} */
-/* .nav-header {
-  background-color: rgb(1, 45, 41) ;
-  color: white;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.nav-header nav a {
-  color: white;
-  margin-left: 1rem;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.nav-header nav a:hover {
-  text-decoration: underline;
-} */
 
  header {
   background-color: rgb(1, 45, 41) ;
