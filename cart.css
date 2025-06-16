@@ -6,7 +6,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
 }
-h1:hover {
+.hh:hover {
   cursor: pointer;
   color: white;
 }
@@ -17,27 +17,13 @@ a {
 }
 
 
- header {
-  background-color: rgb(1, 45, 41) ;
+header {
+    background-color: rgb(1, 45, 41) ;
   color: white;
   padding: 15px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-nav a {
-  color: white;
-  margin-left: 1rem; 
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s ease;
-}
-
-nav a:hover {
-  text-decoration: underline;
-  /* color: #ffd700; */
-  /* transform: scale(1.05); */
 }
 @media (max-width: 768px) {
   .nav-header{
