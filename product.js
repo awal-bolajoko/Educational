@@ -26,7 +26,7 @@ function addToCart(id) {
   if (existing) existing.quantity++;
   else cart.push({ ...item, quantity: 1 });
   localStorage.setItem("cart", JSON.stringify(cart));
-  alert`(${item.title} added to cart)`;
+  alert(`${item.title} ,added to cart`);
 }
 
 function viewDetails(id) {
