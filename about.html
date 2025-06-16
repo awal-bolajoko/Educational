@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
     <title>EDUCATIONAL</title>
 </head>
 <body>
@@ -18,61 +19,61 @@
       <a href="contact.html">Contact</a>
     </nav>
   </header>
-  
 
-  <div class="container">
-    <h1>📚 Welcome to the Future of Learning</h1>
+
+
+ 
+
+  <section>
+    <div class="section-title">Who We Are</div>
+     <div class="about-card animate"> 
+        <h1>📚 Welcome to the Future of Learning</h1>
     <h1>About Educational World</h1><br>
     <h3>Shaping Education, One Material at a Time</h3>
-
-    <section class="mission-section">
-      <h2>Our Mission</h2>
-      <p>
-        At <strong>Educational World</strong>, our mission is to provide high-quality educationalmaterialsthat <br> 
-        empower students, teachers,  and institutions to succeed. We are passionate about making learning effective, <br>
-        engaging, and accessible to everyone, everywhere.
-      </p>
-      <p>
-        From textbooks and workbooks to digital learning tools and classroom supplies,  we offer a wide <br>
-       range of products designed to support academic excellence from preschool to professional development.<br>
-         
-      </p>
-    </section>
-
-    <section class="team-section">
-      <h2>Who We Are</h2>
-      <p>
-        Founded in 2010, Educational World is made up of educators, designers,and innovators who understand <br>
-       the challenges of modern education. Our team works closely with schools,parents, and learners to develop<br>
-       products that meet today’s educational standards  while inspiring curiosity and creativity.<br>
-          
-      </p>
-    </section>
-
-    <section class="cta-section">
-      <h2>Join Our Learning Revolution</h2>
-      <p>
-        Whether you're a teacher looking for better classroom tools or a parent supporting your <br>
-        child's education, Educational World is here to help.
-      </p>
+     <p> From textbooks and workbooks to digital learning tools and classroom supplies,  we offer a wide <br>
+       range of products designed to support academic excellence from preschool to professional development.<br></p>
+      </div>
+    <div class="about-grid">
+      <div class="about-card animate">
+        <h3>Our Mission</h3>
+        <p>At [Your Website Name], we aim to make education accessible, personalized, and inspiring for learners around the globe. We strive to bridge the gap between traditional teaching and modern, digital-first learning.</p>
+      </div>
+     
+      <div class="about-card animate">
+        <h3>What We Offer</h3>
+        
+        <p>Our platform includes interactive lessons, comprehensive courses, test preparation tools, and skill development modules that cater to students, educators, and lifelong learners alike.</p>
     
-      
-      <section class="quote-section">
-  <div class="quote-box">
-    <p class="quote">"Education is not just the transfer of knowledge — it's the ignition of curiosity, the courage to question, and the confidence to grow."</p>
-    <div class="founder-info">
-      <img src="pexels-buro-millennial-636760-1438081.webp" alt="Founder of Educational World" class="founder-photo">
-      <div>
-        <p class="founder-name">Bolajoko awal</p>
-        <p class="founder-title">Founder, Educational World</p>
+      </div>
+      <div class="about-card animate">
+        <h3>Our Values</h3>
+        <p>We believe in excellence, equity, and innovation. Our commitment is to provide an inclusive, high-quality learning environment powered by technology and driven by passion for education.</p>
+      </div>
+      <div class="about-card animate">
+        <h3>Our Community</h3>
+        <p>Join a diverse community of curious minds, supportive educators, and motivated learners who believe that knowledge can change lives and build brighter futures.</p>
       </div>
     </div>
-  </div>
-</section>
-  
-      
-      <a href="service.html"><button class="cta-button">Explore Our Products</button></a>
-    
+  </section>
+
+  <script>
+    // Simple scroll-based animation
+    const cards = document.querySelectorAll('.animate');
+
+    function checkScroll() {
+      const triggerBottom = window.innerHeight * 0.85;
+      cards.forEach(card => {
+        const cardTop = card.getBoundingClientRect().top;
+        if (cardTop < triggerBottom) {
+          card.classList.add('show');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', checkScroll);
+    window.addEventListener('load', checkScroll);
+  </script>
+
     </section>
 
   </div>
