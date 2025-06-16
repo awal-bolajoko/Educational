@@ -99,7 +99,7 @@ p{
 }
 
 .qty button {
-    background: rgba(236, 226, 226, 0.151);
+    background:rgb(133, 49, 18);
     color: white;
     border: none;
     padding: 5px 10px;
@@ -109,7 +109,7 @@ p{
 }
 
 .remove {
-    background:  rgba(236, 226, 226, 0.151);
+    background: rgb(133, 49, 18) ;
     color: white;
     padding: 6px 10px;
     border: none;
