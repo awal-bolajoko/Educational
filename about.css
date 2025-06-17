@@ -131,6 +131,33 @@ nav a:hover {
   text-align: center;
   /* font-size: 20px; */
 }
+.act{ 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  max-width: 100%;
+}
+
+.grid-slider-track {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+.testimonial {
+  /* min-width: 100%; */
+  /* box-sizing: border-box; */
+}
+img{ 
+  /* width: 300vh; */
+  margin: auto;
+  height: 50vh;
+}
 .cta-button {
   background-color: rgb(1, 45, 41) ;
   color: white;
